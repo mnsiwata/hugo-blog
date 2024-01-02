@@ -15,8 +15,8 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Install fonts-noto
-        run: sudo apt install fonts-noto
+      # - name: Install fonts-noto
+      #   run: sudo apt install fonts-noto
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -31,7 +31,7 @@ jobs:
         run: ls public/
 
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4 # FTPを使ってサーバーにDeployするアクションを実行
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0 # FTPを使ってサーバーにDeployするアクションを実行
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }} # FTPサーバーのURLを設定
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
