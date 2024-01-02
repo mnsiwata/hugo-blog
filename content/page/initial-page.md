@@ -4,7 +4,7 @@ date: 2024-01-02T15:50:54+09:00
 categories:
   - 日記
 tags:
-  - 日記
+  - diary
 keywords:
   - 日記
 comments: false
