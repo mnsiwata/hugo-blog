@@ -28,5 +28,5 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
           LOCAL_DIR: public # どのディレクトリのデータをアップロードするか
-          REMOTE_DIR: /home/ss319338/i-mns.com/public_html/ #
+          REMOTE_DIR: / #
           ARGS: --delete
