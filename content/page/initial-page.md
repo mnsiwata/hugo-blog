@@ -2,11 +2,11 @@
 title: '初投稿'
 date: 2024-01-02T15:50:54+09:00
 categories:
-  - 日記
+  - diary
 tags:
   - diary
 keywords:
-  - 日記
+  - diary
 comments: false
 showMeta: true
 showActions: false
