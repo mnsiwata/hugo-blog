@@ -13,4 +13,4 @@ showActions: false
 #thumbnailImage: //example.com/image.jpg
 ---
 
-初投稿だよ！
+初投稿だよ！!
